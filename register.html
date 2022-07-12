@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            REGISTER FORM
+        </title>
+        <style type="text/css">
+    .form{
+    position: absolute;
+    top:25%;
+    left:35%;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    border: 3px solid #001F3F;
+    background-color: #2a6592;
+    box-shadow: 0px 0px 30px 0px black;
+    color: white;
+}
+form{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+input[type='submit']{
+    background-color: white;
+    font-weight: bold;
+    color: rgb(212, 21, 104);
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+     </style>
+       
+    </head>
+
+    <body>
+        <h2 style="text-align: center;">REGISTER FORM</h2>
+        <div class="form">
+        <form action="/reg.php" method="post" onsubmit="validate"></form>
+       <table>
+        <tr><td>NAME:</td><td><input type="text" name="n"></td></tr>
+        <tr><td>EMAIL-ID:</td><td><input type="text" name="e"></td></tr>
+        <tr><td>PASSWORD:</td><td><input type="text" name="P"></td></tr>
+        <tr><td></td><td><input type="submit" name="s"></td></tr>
+       </table>
+       </div>
+    </body>
+</html>

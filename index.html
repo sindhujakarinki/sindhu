@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>
+    <meta LANG="EN" charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>index</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+            <header>
+                <span onclick="toggle()">&equiv;</span>
+                <table>
+                    <tr>
+                        <td><img src="images/WhatsApp Image 2022-07-10 at 8.54.32 PM.jpeg"></td>
+                        <td ><h2 id="name">K.SINDHUJA</h2></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td ><h2 id="num">N180114</h2></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td ><h2 id="class">CSE-02</h2></td>
+                    </tr>
+                    <tr>
+                        <td><h1 id="head">PROJECT-Z</h1></td>
+                    </tr>
+                
+                </table>
+            </header>
+
+               <nav class="navbar" id="navbar-1">
+                <ul class="nav-items">
+                    <li>
+                        <a><i class="fa fa-home" active></i> HOME</a>
+                    </li>
+                    <li class="li" id="sub" >
+                        <a><i class="fa fa-hourglass"></i> EXAM</a>
+                        <ul class="sub-list1" id="exam" style="display: none;">
+                            <li><a href="register.html" >REGISTER</a></li>
+                            <li><a href="login.html" >LOGIN</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li class="li" id="sub1" >
+                
+                        <a><i class="fa fa-wrench"></i> BRANCH</a>
+                        <ul class="sub-list2" id="branch" style="display: none;">
+                            <li>MECH</li>
+                            <li>CIVIL</li>
+                            <li id="sub12">CSE
+                                <ul class="sub-list21" id='subbranch' style="display: none;">
+                                    <li><a href="faculty.html" >FACULTY</a></li>
+                                    <li><a href="student.html" >STUDENT</a></li>
+                                </ul>
+                                </li>
+                    </li>
+                    </ul>
+                    <li class="li">
+                        <a href="contact.html"><i class="fa fa-phone"></i> ABOUTUS</a>
+                    </li>
+                    
+                </ul>
+                
+            </nav >
+            <nav class="navbar1" id="navbar-2" style="display: none;">
+                <ul class="nav-items1">
+                    <li class="li">
+                        <a>
+                            <i class="fa fa-home" active></i>
+                        </a>
+                        
+                    </li>
+                    <li class="li" id="sub3">
+                        <a>
+                            <i class="fa fa-hourglass"></i>
+                        </a>
+                        <ul class="sub-list1" id="exam1" style="display: none;">
+                            <li><a href="register.html" target="main">REGISTER</a></li>
+                            <li><a href="login.html" target="main">LOGIN</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li class="li" id="sub4" >
+                        <a>
+                            <i class="fa fa-wrench"></i>
+                        </a>  
+                        <ul class="sub-list2" id="branch1" style="display: none;">
+                            <li>MECH</li>
+                            <li>CIVIL</li>
+                            <li id="sub42">CSE
+                        <ul class="sub-list21" id="subbranch1" style="display: none;"> 
+                            <li><a href="faculty.html" target="main">FACULTY</a></li>
+                            <li><a href="student.html" target="main">STUDENT</a></li>
+                        </ul>
+                    </li>
+                </ul>   
+                    </li>
+                    <li class="li">
+                        <a>
+                            <i class="fa fa-phone"></i>
+                        </a>
+                        
+                    </li>
+                    
+                </ul>
+                
+            </nav>
+            <div class="main" style="position:fixed;top: 170px;">
+                <div class="filter"><table><tr><th><b>Student<br></b><input type="text" id="key"></th></tr><tr><td>N180696</td></tr><tr><td>N183729</td></tr><tr><td>N180398</td></tr><tr><td>N180595</td></tr><tr><td>N180324</td></tr><tr><td>N180391</td></tr><tr><td>N181023</td></tr><tr><td>N160561</td></tr><tr><td>N160786 </td></tr><tr><td>N171220 </td></tr><tr><td>N180016 </td></tr><tr><td>N180032 </td></tr><tr><td>N180039 </td></tr><tr><td>N180043 </td></tr><tr><td>N180044 </td></tr><tr><td>N180046 </td></tr><tr><td>N180055 </td></tr><tr><td>N180103 </td></tr><tr><td>N180143 </td></tr><tr><td>N180173 </td></tr><tr><td>N180175 </td></tr><tr><td>N180190 </td></tr><tr><td>N180236 </td></tr><tr><td>N180239 </td></tr><tr><td>N180247 </td></tr><tr><td>N180266 </td></tr><tr><td>N180372 </td></tr><tr><td>N180423 </td></tr><tr><td>N180438 </td></tr><tr><td>N180446 </td></tr><tr><td>N180451 </td></tr><tr><td>N180468 </td></tr><tr><td>N180598 </td></tr><tr><td>N180663 </td></tr><tr><td>N180687 </td></tr><tr><td>N180709 </td></tr><tr><td>N180763 </td></tr><tr><td>N180764 </td></tr><tr><td>N180775 </td></tr><tr><td>N180776 </td></tr><tr><td>N180816</td></tr><tr><td>N180994 </td></tr><tr><td>N181014 </td></tr><tr><td>N181027 </td></tr><tr><td>N181040 </td></tr><tr><td>N181046 </td></tr><tr><td>N181059 </td></tr><tr><td>N181075 </td></tr><tr><td>N181110 </td></tr><tr><td>N180624 </td></tr><tr><td>N180863 </td></tr><tr><td>N180866 </td></tr><tr><td>N180990 </td></tr><tr><td>N180942 </td></tr><tr><td>N180887 </td></tr><tr><td>N180876 </td></tr><tr><td>N171250 </td></tr><tr><td>N180664</td></tr></table></div>
+                <div class="slideshow">
+                    <!-- <div class="transparent"></div> -->
+                    <div class="slider">
+                        <div class="slides">
+                            
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+                            <div class="slide">
+                                <img src="images/rgukt.png" >
+                            </div>
+                            <div class="slide">
+                                <img src="images/collage.avif" >
+                            </div>
+                            <div class="slide">
+                                <img src="images/ground.jpg" >
+                            </div>
+                            <div class="slide">
+                                <img src="images/students.jpeg" >
+                            </div>
+                            <button class="left-button" onclick="validate(-1)">&#10094;</button>
+                            <button class="right-button" onclick="validate(1)">&#10095;</button>
+                        </div>
+                        <div class="navigation auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+                        </div> 
+                        
+                    </div>
+                </div>
+                <div class="notify">
+                    <ul class="notify-list">
+                        <li>Notification-1</li>
+                        <li>Notification-2</li>
+                        <li>Notification-2</li>
+                        <li>Notification-3</li>
+                        <li>Notification-4</li>
+                        <li>Notification-5</li>
+                        <li>Notification-6</li>
+                    </ul>
+                </div>
+            </div>
+            <footer>
+                &COPY; RGUKT NUZIVD
+            </footer>
+            <script>
+                var counter=1;
+        setInterval(function(){
+            document.getElementById('radio'+ counter).checked=true;
+            console.log(document.getElementById('radio'+ counter).checked);
+            counter++;
+            if(counter>4){
+                counter=1
+            }
+        },3000);
+                var exam=document.getElementById('exam');
+                var sub=document.getElementById('sub');
+                function toggle(){
+                    var id=document.getElementById('navbar-1');
+                    var id1=document.getElementById('navbar-2');
+                    if(id.style.display=='none'){
+                        id.style.display='block'
+                        id1.style.display='none'
+                    }
+                    else{
+                        
+                        id.style.display='none'
+                        id1.style.display='block'
+                    }
+                }
+                var li=document.getElementById('sub')   
+        var exam=document.getElementById('exam')
+        var li1=document.getElementById('sub1')
+        var li2=document.getElementById('sub12')   
+        var branch=document.getElementById('branch')
+        var subbranch=document.getElementById('subbranch')
+        var li3=document.getElementById('sub3')   
+        var exam1=document.getElementById('exam1')
+        var li4=document.getElementById('sub4')
+        var li5=document.getElementById('sub42')   
+        var branch1=document.getElementById('branch1')
+        var subbranch1=document.getElementById('subbranch1')
+        function display(){
+            exam.style.display='block'
+        } 
+        function remove(){
+            exam.style.display='none'
+        } 
+        function display1(){
+            branch.style.display='block'
+        } 
+        function remove1(){
+            branch.style.display='none'
+            subbranch.style.display='none'
+        }
+        function display2(){
+            subbranch.style.display='block'
+        }
+
+        function display3(){
+            exam1.style.display='block'
+        } 
+        function remove3(){
+            exam1.style.display='none'
+        } 
+        function display4(){
+            branch1.style.display='block'
+        } 
+        function remove4(){
+            branch1.style.display='none'
+            subbranch1.style.display='none'
+        }
+        function display5(){
+            subbranch1.style.display='block'
+        }    
+        li.addEventListener('mouseover',display)
+        exam.addEventListener('mouseout',remove)
+        li1.addEventListener('mouseover',display1)
+        branch.addEventListener('mouseout',remove1)
+        li2.addEventListener('mouseover',display2)
+
+        li3.addEventListener('mouseover',display3)
+        exam1.addEventListener('mouseout',remove3)
+        li4.addEventListener('mouseover',display4)
+        branch1.addEventListener('mouseout',remove4)
+        li5.addEventListener('mouseover',display5)
+        // add.addEventListener('click',additem);
+        // filter.addEventListener('click',removeitem);
+        // searchbar.addEventListener('keyup',filtering)
+    </script>
+    
+    </body>
+    </html> 
